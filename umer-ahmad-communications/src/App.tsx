@@ -7,10 +7,10 @@ import ContactUs from "./pages/ContactUs";
 
 const App: React.FC = () => {
   const navLinks = [
-    { name: "Home", href: "/" }, // Home page
-    { name: "About Us", href: "#about" }, // Section on Home page
-    { name: "Services", href: "#services" }, // Section on Home page
-    { name: "Contact Us", href: "/contact" }, // Separate Contact Us page
+    { name: "Home", href: "/" },
+    { name: "About Us", href: "#about" },
+    { name: "Services", href: "#services" },
+    { name: "Contact Us", href: "/contact" },
   ];
 
   return (
