@@ -30,7 +30,7 @@ const Home: React.FC = () => {
 
   return (
     <div className="flex flex-col min-h-screen">
-      <Header title="Umer Ahmad Communications" links={navLinks} />
+      <Header title="MJ Communications" links={navLinks} />
       {/* Main Content */}
       <main className="flex-grow">
         {/* Home Section */}
@@ -95,7 +95,7 @@ const Home: React.FC = () => {
                   About <span className="text-blue-600">UAC</span>
                 </h2>
                 <p className="text-lg md:text-xl text-center md:text-left mb-8 max-w-3xl">
-                  Umer Ahmad Communications (UAC) is leading and evolving the
+                  MJ Communications is leading and evolving the
                   traditional way organizations deal with their consumers.
                   Established in 2014, we have multiple years of experience in
                   providing services to clients across various sectors.

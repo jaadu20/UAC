@@ -17,7 +17,7 @@ const App: React.FC = () => {
     <Router>
       <div className="flex flex-col min-h-screen">
         {/* Header */}
-        <Header title="Umer Ahmad Communications" links={navLinks} />
+        <Header title="MJ Communications" links={navLinks} />
 
         {/* Main Content */}
         <main className="flex-grow">
@@ -30,11 +30,11 @@ const App: React.FC = () => {
 
         {/* Footer */}
         <Footer
-          companyName="Umer Ahmad Communications"
+          companyName="MJ Communications"
           year={2023}
           address="19 H2 - Abdul Haque Rd, Phase 2, Johar Town, Lahore, Pakistan"
           phone="+92-42-35833800"
-          email="info@uac.com"
+          email="info@mj.com"
         />
       </div>
     </Router>

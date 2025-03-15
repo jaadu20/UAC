@@ -12,7 +12,7 @@ const ContactUs: React.FC = () => {
 
   return (
     <div className="flex flex-col min-h-screen">
-      <Header title="Umer Ahmad Communications" links={navLinks} />
+      <Header title="MJ Communications" links={navLinks} />
 
       <main className="flex-grow">
         {/* Get in Touch Section */}
